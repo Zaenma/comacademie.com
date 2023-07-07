@@ -1,6 +1,7 @@
     <!-- =======================
 Footer START -->
     <footer class="pt-5">
+        <hr>
         <div class="container">
             <!-- Row START -->
             <div class="row g-4">
@@ -9,11 +10,14 @@ Footer START -->
                 <div class="col-lg-3">
                     <!-- logo -->
                     <a class="me-0" href="index-2.html">
-                        <img class="light-mode-item h-40px" src="assets/images/logo.svg" alt="logo">
-                        <img class="dark-mode-item h-40px" src="assets/images/logo-light.svg" alt="logo">
+                        <img class="light-mode-item h-40px" src="{{ asset('assets/images/comlogo.png') }}" alt="logo">
+                        <img class="dark-mode-item h-40px" src="{{ asset('assets/images/comlogo.png') }}" alt="logo">
                     </a>
-                    <p class="my-3">Eduport education theme, built specifically for the education centers which is
-                        dedicated to teaching and involve learners.</p>
+                    <p class="my-3"><strong class="text-primary">Comacademie</strong>, une plateforme éducative en
+                        développement qui vise à
+                        révolutionner l'éducation aux Comores. Développée avec passion, cette plateforme unique
+                        est conçue pour fournir un soutien complet aux élèves du collège, du lycée et aux étudiants des
+                        universités.</p>
                     <!-- Social media icon -->
                     <ul class="list-inline mb-0 mt-3">
                         <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook"
@@ -29,7 +33,7 @@ Footer START -->
                 <!-- Widget 1 END -->
 
                 <!-- Widget 2 START -->
-                <div class="col-lg-6">
+                {{-- <div class="col-lg-6">
                     <div class="row g-4">
                         <!-- Link block -->
                         <div class="col-6 col-md-4">
@@ -65,11 +69,11 @@ Footer START -->
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <!-- Widget 2 END -->
 
                 <!-- Widget 3 START -->
-                <div class="col-lg-3">
+                {{-- <div class="col-lg-3">
                     <h5 class="mb-2 mb-md-4">Contact</h5>
                     <!-- Time -->
                     <p class="mb-2">
@@ -90,7 +94,7 @@ Footer START -->
                             <a href="#"> <img src="assets/images/client/app-store.svg" alt="app-store"> </a>
                         </div>
                     </div> <!-- Row END -->
-                </div>
+                </div> --}}
                 <!-- Widget 3 END -->
             </div><!-- Row END -->
 
@@ -98,7 +102,7 @@ Footer START -->
             <hr class="mt-4 mb-0">
 
             <!-- Bottom footer -->
-            <div class="py-3">
+            {{-- <div class="py-3">
                 <div class="container px-0">
                     <div class="d-lg-flex justify-content-between align-items-center py-3 text-center text-md-left">
                         <!-- copyright text -->
@@ -135,7 +139,7 @@ Footer START -->
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </footer>
     <!-- =======================

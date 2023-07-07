@@ -4,7 +4,7 @@
 <!-- Mirrored from eduport.webestica.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 18 Jun 2023 10:26:25 GMT -->
 
 <head>
-    <title>Eduport - LMS, Education and Course Theme</title>
+    <title>Comacademie</title>
 
     <!-- Meta Tags -->
     <meta charset="utf-8">
@@ -72,7 +72,7 @@
     </script>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/images/comlogo.PNG') }}">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -106,13 +106,13 @@
 
 <body>
 
-    {{-- @include('frontend.inc.header') --}}
+    @include('frontend.inc.header')
 
 
     @yield('content')
 
 
-    {{-- @include('frontend.inc.footer') --}}
+    @include('frontend.inc.footer')
 
     <!-- Back to top -->
     <div class="back-top"><i class="bi bi-arrow-up-short position-absolute top-50 start-50 translate-middle"></i>
