@@ -73,6 +73,7 @@ return array(
     'LaravelLang\\Lang\\' => array($vendorDir . '/laravel-lang/lang/src'),
     'LaravelLang\\HttpStatuses\\' => array($vendorDir . '/laravel-lang/http-statuses/src'),
     'LaravelLang\\Attributes\\' => array($vendorDir . '/laravel-lang/attributes/src'),
+    'Intervention\\Image\\' => array($vendorDir . '/intervention/image/src/Intervention/Image'),
     'Illuminate\\Support\\' => array($vendorDir . '/laravel/framework/src/Illuminate/Macroable', $vendorDir . '/laravel/framework/src/Illuminate/Collections', $vendorDir . '/laravel/framework/src/Illuminate/Conditionable'),
     'Illuminate\\' => array($vendorDir . '/laravel/framework/src/Illuminate'),
     'GuzzleHttp\\UriTemplate\\' => array($vendorDir . '/guzzlehttp/uri-template/src'),
@@ -98,5 +99,6 @@ return array(
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
     'ArchTech\\Enums\\' => array($vendorDir . '/archtechx/enums/src'),
+    'App\\Helpers\\' => array($baseDir . '/app/Helpers'),
     'App\\' => array($baseDir . '/app', $vendorDir . '/laravel/pint/app'),
 );

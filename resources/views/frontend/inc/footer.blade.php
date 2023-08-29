@@ -2,7 +2,7 @@
 Footer START -->
     <footer class="pt-5">
         <hr>
-        <div class="container">
+        <div class="container-fluid">
             <!-- Row START -->
             <div class="row g-4">
 
@@ -33,68 +33,86 @@ Footer START -->
                 <!-- Widget 1 END -->
 
                 <!-- Widget 2 START -->
-                {{-- <div class="col-lg-6">
-                    <div class="row g-4">
-                        <!-- Link block -->
-                        <div class="col-6 col-md-4">
-                            <h5 class="mb-2 mb-md-4">Company</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">News and Blogs</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Library</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Career</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- Link block -->
-                        <div class="col-6 col-md-4">
-                            <h5 class="mb-2 mb-md-4">Community</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item"><a class="nav-link" href="#">Documentation</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Sitemap</a></li>
-                            </ul>
-                        </div>
-
-                        <!-- Link block -->
-                        <div class="col-6 col-md-4">
-                            <h5 class="mb-2 mb-md-4">Teaching</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item"><a class="nav-link" href="#">Become a teacher</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">How to guide</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Terms &amp; Conditions</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> --}}
+                <div class="col-lg-3">
+                    {{-- <div class="col-12 col-md-12">
+                        <h5 class="mb-2 mb-md-4">Company</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">News and Blogs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Library</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Career</a></li>
+                        </ul>
+                    </div> --}}
+                </div>
                 <!-- Widget 2 END -->
 
                 <!-- Widget 3 START -->
-                {{-- <div class="col-lg-3">
-                    <h5 class="mb-2 mb-md-4">Contact</h5>
-                    <!-- Time -->
-                    <p class="mb-2">
-                        Toll free:<span class="h6 fw-light ms-2">+1234 568 963</span>
-                        <span class="d-block small">(9:AM to 8:PM IST)</span>
-                    </p>
+                <div class="col-lg-6">
 
-                    <p class="mb-0">Email:<span class="h6 fw-light ms-2">example@gmail.com</span></p>
+                    <!-- =======================
+                        Inner part START -->
+                    <div class="card shadow p-2">
+                        <div class="row g-0">
+                            <!-- Image -->
+                            <div class="col-md-4">
+                                <img src="{{ asset('assets/images/avatar/09.png') }}" class="rounded-3" alt="...">
+                            </div>
 
-                    <div class="row g-2 mt-2">
-                        <!-- Google play store button -->
-                        <div class="col-6 col-sm-4 col-md-3 col-lg-6">
-                            <a href="#"> <img src="assets/images/client/google-play.svg" alt="">
-                            </a>
+                            <!-- Card body -->
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <!-- Title -->
+                                    <div class="d-sm-flex justify-content-sm-between mb-2 mb-sm-3">
+                                        <div>
+                                            <h5 class="card-title mb-0"><a href="" target="_blank">Halidi
+                                                    Amirddine Zaenma</a>
+                                            </h5>
+                                            <p class="small mb-2 mb-sm-0">Fondateur de
+                                                comacademie</p>
+                                        </div>
+                                        <span class="h6 fw-light">4.6<i
+                                                class="fas fa-star text-warning ms-1"></i></span>
+                                    </div>
+                                    <!-- Content -->
+                                    <p class="text-truncate-2 mb-3">Un passionné des TIC, qui met à
+                                        profit ses compétences et ses connaissances pour offrir une
+                                        expérience
+                                        d'apprentissage exceptionnelle en fournissant continuellement
+                                        des solutions
+                                        innovantes.</p>
+                                    <!-- Info -->
+                                    <div class="d-sm-flex justify-content-sm-between align-items-center">
+                                        <!-- Title -->
+                                        <h6 class="text-orange mb-0">Ingénieur Informatique</h6>
+
+                                        <!-- Social button -->
+                                        <ul class="list-inline mb-0 mt-3 mt-sm-0">
+                                            <li class="list-inline-item">
+                                                <a class="mb-0 me-1 text-facebook" href="#"><i
+                                                        class="fab fa-fw fa-facebook-f"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="mb-0 me-1 text-instagram-gradient" href="#"><i
+                                                        class="fab fa-fw fa-instagram"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="mb-0 me-1 text-twitter" href="#"><i
+                                                        class="fab fa-fw fa-twitter"></i></a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="mb-0 text-linkedin" href="#"><i
+                                                        class="fab fa-fw fa-linkedin-in"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <!-- App store button -->
-                        <div class="col-6 col-sm-4 col-md-3 col-lg-6">
-                            <a href="#"> <img src="assets/images/client/app-store.svg" alt="app-store"> </a>
-                        </div>
-                    </div> <!-- Row END -->
-                </div> --}}
+                    </div>
+
+
+                </div>
                 <!-- Widget 3 END -->
             </div><!-- Row END -->
 
@@ -102,7 +120,7 @@ Footer START -->
             <hr class="mt-4 mb-0">
 
             <!-- Bottom footer -->
-            {{-- <div class="py-3">
+            <div class="py-3">
                 <div class="container px-0">
                     <div class="d-lg-flex justify-content-between align-items-center py-3 text-center text-md-left">
                         <!-- copyright text -->
@@ -139,7 +157,7 @@ Footer START -->
                         </div>
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
     </footer>
     <!-- =======================

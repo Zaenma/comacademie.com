@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\PublicController;
 
 use App\Http\Controllers\Controller;
+use App\Models\Librairie\Livre;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -12,7 +13,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view("frontend.index");
+        $livres = Livre::paginate(8);
+        return view("frontend.index", compact('livres'));
     }
 
     /**
